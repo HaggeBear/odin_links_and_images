@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Links and images in HTML</title>
+</head>
+<body>
+    <h1>Homepage</h1>
+
+    <p>To create a link in HTML, we use the anchor element. 
+    An anchor element is defined by wrapping the text or 
+    another HTML element we want to be a link with an <strong>"< a >"</strong> tag
+    followed by the <strong>href=</strong>tag</p>
+
+    <p>A absolute linkes: exempel <em>town.com</em> is the domain </p>
+    <p> A relatie link points to a directory are directions to the next room ex <em>/museum</em> 
+, contnues to the next room at the musem <em>/museum/shops/coffee_shot.html</em> gos from the museum to the shop sand continues to the coffeeshop</p>
+<p>Absolute links, on the other hand, are full directions including the protocol (https), </p>
+    <p>domain name (town.com) and the path from that domain name (/museum/shops/coffee_shop.html): https://town.com/museum/shops/coffee_shop.html.</p>
+    <!-- Prepending ./ before the link will in most cases prevent such issues.
+         By adding ./ you are specifying to your code that it should start 
+         looking for the file/directory relative to the current directory. -->
+   <p> <a href="./pages/about.html"target="_blank" > About - new tab </a></p>
+    <p> <a href="./pages/about.html" target="_self" > About - current tab </a></p>
+
+        <img src="./img/IMG_20210721_100941.jpg" alt="A slothiz">
+
+
+        <img src="https://www.theodinproject.com/mstile-310x310.png" alt="The Odin Project Logo">
+
+
+</body>
+</html>
